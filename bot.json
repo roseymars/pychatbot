@@ -1,0 +1,62 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["give", "a", "compliment", "tell", "something", "nice"],
+    "bot_response": "Looking good today ;)",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "weather"],
+    "bot_response": "Sunny today! Oh wait, no... rainy! Wait, my knowledge doesn't expand as far as that.",
+    "required_words": ["weather", "what", "is"]
+  },
+  {
+    "response_type": "joke",
+    "user_input": ["joke", "tell", "me"],
+    "bot_response": "What's the object-oriented way to become wealthy? Inheritance.",
+    "required_words": ["joke"]
+  },
+   {
+    "response_type": "fact",
+    "user_input": ["fact", "tell", "me"],
+    "bot_response": "What's the object-oriented way to become wealthy? Inheritance.",
+    "required_words": ["fact"]
+  }
+]
