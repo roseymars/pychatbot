@@ -56,7 +56,7 @@
    {
     "response_type": "fact",
     "user_input": ["fact", "tell", "me"],
-    "bot_response": "What's the object-oriented way to become wealthy? Inheritance.",
+    "bot_response": "Pandas can eat 12-38kg of bamboo each day",
     "required_words": ["fact"]
   }
 ]
